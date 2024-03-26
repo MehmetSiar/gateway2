@@ -9,7 +9,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 public class TokenManager {
-
     private static final String SECRET_KEY = "yourSecretKey"; // Güvenli bir şekilde saklanmalıdır
     private static final long EXPIRATION_TIME = 864_000_000; // 10 gün (milisaniye cinsinden)
     public String getDatalogging(String token , String userName) {
